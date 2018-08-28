@@ -8,6 +8,7 @@ body {
     width: 100%;
     font-family: "Montserrat", Arial, Helvetica, sans-serif;
     box-sizing: border-box;
+    color: #674582;
 }
 
 .menu {
@@ -22,14 +23,10 @@ body {
     margin-left: -10px;
     height: 100px;
     right: 0;
-    
-    
-
 }
 
 .menu li {
     display: inline-block;
-    /* margin-left: 0; */
 }
 
 .menu a {
@@ -85,8 +82,7 @@ body {
     height: 211px;
     background-color: #674582;
     margin-left: 184px;
-    border-radius: 7px;
-    
+    border-radius: 7px;   
 }
 
 .mulheres p{
@@ -108,7 +104,7 @@ body {
 
 header {
     display: flex;
-    background-image: url(../img/bg-banner-claro.png);
+    background-image: url(../img/frances-allen1.jpg);
     width: 1920px;
     height: 470px;
     margin-left: -8px;
@@ -119,7 +115,6 @@ header {
     vertical-align: auto;
     padding-right: 7.5px;
     background-size: cover;
-
 }
 
 header h1 {
@@ -127,6 +122,49 @@ header h1 {
     text-align: center;
     font-size: 50px;
 }
+
+.titulo h3 {
+    text-align: center;
+    font-size: 20px;
+}
+
+.conteudo {
+    width: 60%;
+    margin: 0;
+    vertical-align: middle;
+
+}
+
+.introducao {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.introducao img {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.introducao p {
+    color: #674582;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .menu-final {
     width: 100%;
@@ -139,9 +177,6 @@ header h1 {
     margin-left: -10px;
     height: 170px;
     right: 0;
-    
-    
-
 }
 
 .menu-final li {

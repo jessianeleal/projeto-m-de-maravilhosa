@@ -8,6 +8,7 @@ body {
     width: 100%;
     font-family: "Montserrat", Arial, Helvetica, sans-serif;
     box-sizing: border-box;
+    margin: 0;
 }
 
 .menu {
@@ -43,7 +44,7 @@ body {
 
 .logo {
     width: 30%;
-    padding-left: 172px;
+    padding-left: 185px;
 }
 
 .logo img {
@@ -53,8 +54,8 @@ body {
 
 .lista {
     width: 30%;
-    padding-left: 175px;
-    padding-right: 20px;
+    padding-left: 185px;
+    padding-right: 25px;
 }
 
 .lista a {
@@ -104,6 +105,10 @@ body {
 
 .foto-texto {
     margin-bottom: 100px;
+}
+
+main {
+
 }
 
 header {
@@ -171,6 +176,7 @@ section h3 {
     margin-left: -10px;
     height: 170px;
     right: 0;
+    padding-right: 10.2px;
     
     
 
@@ -246,7 +252,8 @@ footer {
     color: #ffffff;
     height: 30px;
     margin-left: -10px;
-    padding-top: 1px;
+    padding-top: 13px;
+    padding-right: 10.2px;
 }
 
 footer p{
