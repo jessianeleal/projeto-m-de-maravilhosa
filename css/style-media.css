@@ -1,0 +1,628 @@
+@media (max-width: 1024px) { 
+    .menu {
+        width: 100%;
+        max-width: 100%;
+        position: fixed;
+        display: flex;   
+        background-color: #674582;
+        justify-content: space-around;
+        align-items: center;
+        margin-top: -8px;
+        margin-left: -10px;
+        height: 100px;
+        right: 0;
+    }
+
+    .menu li {
+        display: inline-block;
+    }
+
+    .menu a {
+        color: white;
+        text-decoration: none;
+        text-transform: uppercase;
+        text-align: left;
+        font-size: 12px;
+    }
+
+    .logo {
+        width: 30%;
+        padding-left: 100px;
+    }
+
+    .logo img {
+        width: 249px;
+        height: 69px;
+    }
+
+    .lista {
+        width: 30%;
+        padding-left: 75px;
+        padding-right: 40px;
+    }
+
+    .lista a {
+        margin-right: 10px;
+    }
+
+    .redes-sociais {
+        width: 30%;
+        padding-right: 30px;
+    }
+
+    .redes-sociais img {
+        margin-left: 14px;
+    }
+
+
+    .mulheres {
+        /* width: 90%; */
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 auto;
+        /* line-height: 100px; */
+    }
+
+
+    .mulheres img {
+        width: 140px;
+        height: 151px;
+        background-color: #674582;
+        margin-left: 150px;
+        border-radius: 7px;
+        
+    }
+
+    .mulheres p{
+        text-align: center;
+        margin-left: 137px;
+        padding-top: 10px;
+        
+    }
+
+    .mulheres a {
+        text-decoration: none;
+        color: #000000;
+        font-size: 18px;
+    }
+
+    .foto-texto {
+        margin-bottom: 50px;
+    }
+
+    header {
+        display: flex;
+        background-image: url(../img/bg-banner-claro.png);
+        width: 1920px;
+        height: 600px;
+        margin-left: -8px;
+        align-items: flex-end;
+        background-repeat: no-repeat;
+        max-width: 100%;
+        vertical-align: auto;
+        padding-right: 7.5px;
+        background-size: cover;
+
+    }
+
+    .conteudo {
+        width: 55%;
+        padding-bottom: 120px;
+        color: #ffffff;
+        text-transform: uppercase;
+        padding-left: 192px; 
+    }
+
+    .conteudo h1 {
+        font-size: 36px;
+        padding-right: 100px;
+    }
+
+    .conteudo p {
+        font-size: 21px;
+        font-weight: normal;
+        padding-bottom: 40px;
+    }
+
+    .btn {
+        border: 1px solid #C083B9;
+        background-color: #C083B9;
+        padding: 20px 50px;
+        text-decoration: none;
+        color: #ffffff;
+        font-weight: bold;
+        font-size: 36px;
+        border-radius: 8px;
+    }
+
+    section h3 {
+        font-family: "Roboto Slab", Arial, Helvetica, sans-serif;
+        font-size: 32px;
+        text-align: center;
+        color: #63458A;
+        font-weight: bold;
+        padding: 60px 0 35px 0;
+    }
+
+    .menu-final {
+        width: 100%;
+        max-width: 100%;
+        display: flex;   
+        background-color: #323534;
+        justify-content: space-around;
+        align-items: center;
+        margin-top: 60px;
+        margin-left: -10px;
+        height: 170px;
+        right: 0;
+    }
+
+    .menu-final li {
+        /* display: inline-block; */
+        /* margin-left: 0; */
+        text-decoration: none;
+        list-style: none;
+        text-align: center;
+    }
+
+    .menu-final a {
+        color: white;
+        text-decoration: none;
+        /* margin-left: 15px;  */
+        text-transform: uppercase;
+        text-align: left;
+        font-size: 14px;
+    }
+
+    .logo-final {
+        width: 30%;
+        /* padding-left: 172px; */
+        vertical-align: middle;
+    }
+
+    .logo-final img {
+        width: 300px;
+        height: 80px;
+    }
+
+    .lista-final {
+        width: 30%;
+        /* padding-left: 175px;
+        padding-right: 20px; */
+        padding-right: 20px;
+        padding-left: 60px;
+    }
+
+    .lista-final a {
+        /* margin-right: 15px; */
+    }
+
+    .icone-menu {
+        display: none;
+    }
+
+    .redes-sociais-final {
+        width: 30%;
+        padding-left: 60px;
+    }
+
+    .redes-sociais-final img {
+        margin-left: 10px;
+        width: 25px;
+        height: 45px;
+    }
+
+    .redes-sociais-final a {
+        font-size: 18px;
+        text-transform: none;
+    }
+
+    footer {
+        width: 100%;
+        max-width: 100%;
+        font-size: 12px;
+        background-color: #292A2A;
+        margin: 0;
+        text-align: center;
+        color: #ffffff;
+        height: 30px;
+        margin-left: -10px;
+        padding-top: 14px;
+    }
+
+    footer p{
+        margin: 0;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+    body {
+        margin: 0;
+    }
+    .menu {
+      width: 100%;
+      max-width: 100%;
+      display: flex;
+      justify-content: left;      
+    }
+
+    .lista, .redes-sociais {
+        display: none;
+    }
+
+    .logo {
+        padding-left: 40px;
+    }
+
+    .icone-menu {
+        display: flex;
+    }
+
+    .icone-menu img {
+        margin-left: 390px;
+        width: 40px;
+        height: 40px;
+    }
+
+    .mulheres {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 auto;
+    }
+    .mulheres img{
+        width: 250px;
+        height: 261px;
+        margin-left: 90px;
+        border-radius: 7px;
+    }
+
+    .mulheres p{
+        text-align: center;
+        margin-left: 90px;
+        padding-top: 5px;
+        
+    }
+    
+    .mulheres a {
+        text-decoration: none;
+        color: #000000;
+        font-size: 16px;
+    }
+
+    .foto-texto {
+        margin-bottom: 35px;
+    }
+
+    header {
+        display: flex;
+        background-image: url(../img/bg-banner-claro.png);
+        width: 800px;
+        height: 500px;
+        align-items: end;
+        background-repeat: no-repeat;
+        max-width: 100%;
+        vertical-align: auto;
+        padding-top: 10px;
+        background-size: cover;
+        background-position: -100px 0;    
+    }
+    
+    .conteudo {
+        width: 100%;
+        max-width: 70%;
+        color: #ffffff;
+        text-transform: uppercase;
+        padding-left: 60px; 
+    }
+    
+    .conteudo h1 {
+        font-size: 24px;
+        padding-right: 100px;
+        padding-top: 190px;
+        
+    }
+    
+    .conteudo p {
+        font-size: 15px;
+        font-weight: normal;
+        padding-bottom: 30px;
+    }
+    
+    .btn {
+        border: 1px solid #C083B9;
+        background-color: #C083B9;
+        padding: 10px 25px;
+        text-decoration: none;
+        color: #ffffff;
+        font-weight: bold;
+        font-size: 18px;
+        border-radius: 8px;
+    }
+    
+    section h3 {
+        font-family: "Roboto Slab", Arial, Helvetica, sans-serif;
+        font-size: 24px;
+        text-align: center;
+        color: #63458A;
+        font-weight: bold;
+        padding: 30px 0 35px 0;
+        text-align: center;
+    }
+    
+    .menu-final {
+        width: 100%;
+        max-width: 100%;
+        display: flex;   
+        background-color: #323534;
+        justify-content: center;
+        align-items: center;
+        margin-top: 5px;
+        padding-right: 10px;
+        height: 150px;
+        right: 0;
+    }
+    
+    .menu-final li {
+        text-decoration: none;
+        list-style: none;
+        text-align: center;
+    }
+    
+    .menu-final a {
+        color: white;
+        text-decoration: none;
+        text-transform: uppercase;
+        text-align: center;
+        font-size: 10px;
+    }
+    
+    .logo-final {
+        width: 40%;
+        padding-left: 80px;
+    }
+    
+    .logo-final img {
+        width: 100px;
+        height: 30px;
+    }
+    
+    .lista-final {
+        width: 50%;
+        padding-left: 10px;
+    }
+       
+    .redes-sociais-final {
+        display: inline;
+        width: 40%;
+        padding-left: 15px;
+    }
+    
+    .redes-sociais-final img {
+        width: 15px;
+        height: 25px;
+    } 
+
+    .redes-sociais-final a {
+        font-size: 10px;
+    }
+
+    footer {
+        width: 100%;
+        max-width: 100%;
+        font-size: 12px;
+        background-color: #292A2A;
+        margin: 0;
+        text-align: center;
+        color: #ffffff;
+        height: 25px;
+        /* margin-left: -10px; */
+        padding-top: 10px;
+    }
+    
+    footer p{
+        margin: 0;
+    }
+  }
+
+  @media (max-width: 420px) {
+    body {
+        margin: 0;
+    }
+    .menu {
+      width: 100%;
+      max-width: 100%;
+      display: flex;
+      justify-content: left;      
+    }
+
+    .lista, .redes-sociais {
+        display: none;
+    }
+
+    .logo {
+        padding-left: 20px;
+    }
+
+    .icone-menu {
+        display: flex;
+    }
+
+    .icone-menu img {
+        margin-left: 200px;
+        width: 40px;
+        height: 40px;
+    }
+
+    .mulheres {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 auto;
+    }
+    .mulheres img{
+        width: 150px;
+        height: 161px;
+        margin-left: 40px;
+        border-radius: 7px;
+    }
+
+    .mulheres p{
+        text-align: center;
+        margin-left: 40px;
+        padding-top: 5px;
+        
+    }
+    
+    .mulheres a {
+        text-decoration: none;
+        color: #000000;
+        font-size: 10px;
+    }
+
+    .foto-texto {
+        margin-bottom: 35px;
+    }
+
+    header {
+        display: flex;
+        background-image: url(../img/bg-banner-claro.png);
+        width: 500px;
+        height: 500px;
+        align-items: end;
+        background-repeat: no-repeat;
+        max-width: 100%;
+        vertical-align: auto;
+        padding-top: 10px;
+        background-size: cover;
+        background-position: -100px 0;    
+    }
+    
+    .conteudo {
+        width: 100%;
+        max-width: 100%;
+        color: #ffffff;
+        text-transform: uppercase;
+        padding-left: 30px; 
+    }
+    
+    .conteudo h1 {
+        font-size: 24px;
+        padding-right: 100px;
+        padding-top: 190px;
+        
+    }
+    
+    .conteudo p {
+        font-size: 15px;
+        font-weight: normal;
+        padding-bottom: 30px;
+    }
+    
+    .btn {
+        border: 1px solid #C083B9;
+        background-color: #C083B9;
+        padding: 10px 25px;
+        text-decoration: none;
+        color: #ffffff;
+        font-weight: bold;
+        font-size: 18px;
+        border-radius: 8px;
+    }
+    
+    section h3 {
+        font-family: "Roboto Slab", Arial, Helvetica, sans-serif;
+        font-size: 14px;
+        text-align: center;
+        color: #63458A;
+        font-weight: bold;
+        padding: 30px 0 35px 0;
+        text-align: center;
+    }
+    
+    .menu-final {
+        width: 100%;
+        max-width: 100%;
+        display: flex;   
+        background-color: #323534;
+        justify-content: center;
+        align-items: center;
+        margin-top: 5px;
+        padding-right: 10px;
+        height: 150px;
+        right: 0;
+        flex-direction: column;
+    }
+    
+    .menu-final li {
+        text-decoration: none;
+        list-style: none;
+        text-align: center;
+    }
+    
+    .menu-final a {
+        color: white;
+        text-decoration: none;
+        text-transform: uppercase;
+        text-align: center;
+        font-size: 10px;
+    }
+    
+    .logo-final {
+        width: 40%;
+        padding-left: 80px;
+    }
+    
+    .logo-final img {
+        width: 100px;
+        height: 30px;
+    }
+    
+    .lista-final {
+        width: 50%;
+        padding-left: 10px;
+    }
+       
+    .redes-sociais-final {
+        display: inline;
+        width: 40%;
+        padding-left: 15px;
+    }
+    
+    .redes-sociais-final img {
+        width: 15px;
+        height: 25px;
+    } 
+
+    .redes-sociais-final a {
+        font-size: 10px;
+    }
+
+    footer {
+        width: 100%;
+        max-width: 100%;
+        font-size: 8px;
+        background-color: #292A2A;
+        margin: 0;
+        text-align: center;
+        color: #ffffff;
+        height: 20px;
+        /* margin-left: -10px; */
+        padding-top: 14px;
+    }
+    
+    footer p{
+        margin: 0;
+    }
+  }
+
+  
+
