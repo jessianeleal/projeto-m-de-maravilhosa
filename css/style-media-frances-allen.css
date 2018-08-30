@@ -1,0 +1,823 @@
+@media (max-width: 1024px) { 
+
+    body {
+        margin: 0;
+    }
+    .menu {
+        width: 1024px;
+        max-width: 100%;
+        position: fixed;
+        display: flex;   
+        background-color: #674582;
+        justify-content: space-around;
+        align-items: center;
+        margin-top: -8px;
+        height: 100px;
+        right: 0;
+    }
+
+    .menu li {
+        display: inline-block;
+    }
+
+    .menu a {
+        color: white;
+        text-decoration: none;
+        text-transform: uppercase;
+        text-align: left;
+        font-size: 12px;
+    }
+
+    .logo {
+        width: 30%;
+        padding-left: 100px;
+    }
+
+    .logo img {
+        width: 249px;
+        height: 69px;
+    }
+
+    .lista {
+        width: 30%;
+        padding-left: 75px;
+        padding-right: 40px;
+    }
+
+    .lista a {
+        margin-right: 10px;
+    }
+
+    .redes-sociais {
+        width: 30%;
+        padding-right: 30px;
+    }
+
+    .redes-sociais img {
+        margin-left: 14px;
+    }
+
+    header {
+        display: flex;
+        background-image: url(../img/frances-allen1.jpg);
+        width: 1920px;
+        height: 500px;
+        margin-left: -8px;
+        align-items: flex-end;
+        justify-content: center;
+        background-repeat: no-repeat;
+        max-width: 100%;
+        vertical-align: auto;
+        background-size: cover;
+    }
+
+    header h1 {
+        color: #ffffff;
+        text-align: center;
+        font-size: 72px;
+        font-weight: bold;
+        text-transform: uppercase;
+        margin-bottom: 25px;
+    }
+
+    .titulo h3 {
+        font-size: 18px;
+        padding-left: 190px;
+    }
+    
+    .conteudo {
+        margin: 5% 21.3% ;
+        display: flex;
+    }
+    
+    .introducao {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+    
+    }
+    
+    .introducao img {
+        width: 165px;
+        height: 165px;
+        border-radius: 100%;
+    }
+    
+    .introducao p {
+        color: #63458A;
+        text-align: left;
+        margin-left: 40px;
+        margin-top: 15px;
+        font-size: 15px;
+        padding-right: 30px;
+
+    }
+    
+    .citacao {
+        border: 1px solid #63458A;
+        font-weight: bold;
+        font-size: 19px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    
+    .citacao p {
+        text-align: center;
+        margin: 50px;
+    }
+    
+    .historia h4 {
+        text-align: left;
+        font-size: 18px;
+        font-family: "Roboto Slab", Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        margin:0; 
+    }
+    
+    .historia p {
+        font-size: 15px;
+    }
+    
+    .historia img {
+        width: 300px;
+        height: 300px;
+        margin: 40px 25%;
+    }
+    
+    .cite {
+        text-align: right;
+        font-style: italic;
+        color: #606362;
+        font-size: 10px;
+        padding-left: 100px;
+    }
+    
+    .assinatura {
+        display: flex;
+        align-items: center;
+        background-color: #E4B7E5;
+        line-height: 15px;
+    }
+    
+    .assinatura img {
+        width: 150px;
+        height: 150px;
+        padding-left: 300px;
+    }
+    
+    .assinatura-foto {
+        width: 40%;
+    }
+    
+    .assinatura-texto {
+        width: 50%;
+        padding-left: 100px;
+        font-weight: bold;
+        font-size: 17px;
+    }
+    
+    .assinatura-texto a {
+        text-decoration: none;
+        color: #63458A;
+    }
+    
+    .todas {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 60px;
+    }
+
+    .todas a{
+        text-decoration: none;
+        font-weight: bold;
+        text-transform: uppercase;
+        color: #ffffff;
+        background-color: #C083B9;
+        padding: 15px 40px;
+        font-size: 38px;
+        border-radius: 10px;
+    }
+
+    .menu-final {
+        width: 100%;
+        max-width: 100%;
+        display: flex;   
+        background-color: #323534;
+        justify-content: space-around;
+        align-items: center;
+        margin-top: 60px;
+        margin-left: -10px;
+        height: 170px;
+        right: 0;
+    }
+
+    .menu-final li {
+        text-decoration: none;
+        list-style: none;
+        text-align: center;
+    }
+
+    .menu-final a {
+        color: white;
+        text-decoration: none;
+        text-transform: uppercase;
+        text-align: left;
+        font-size: 14px;
+    }
+
+    .logo-final {
+        width: 30%;
+        vertical-align: middle;
+    }
+
+    .logo-final img {
+        width: 300px;
+        height: 80px;
+    }
+
+    .lista-final {
+        width: 30%;
+        padding-right: 20px;
+        padding-left: 60px;
+    }
+
+    .icone-menu {
+        display: none;
+    }
+
+    .redes-sociais-final {
+        width: 30%;
+        padding-left: 60px;
+    }
+
+    .redes-sociais-final img {
+        margin-left: 10px;
+        width: 25px;
+        height: 45px;
+    }
+
+    .redes-sociais-final a {
+        font-size: 18px;
+        text-transform: none;
+    }
+
+    footer {
+        width: 100%;
+        max-width: 100%;
+        font-size: 12px;
+        background-color: #292A2A;
+        margin: 0;
+        text-align: center;
+        color: #ffffff;
+        height: 30px;
+        margin-left: -10px;
+        padding-top: 14px;
+    }
+
+    footer p{
+        margin: 0;
+    }
+
+}
+
+/* ----------------------------------- 
+----------Responsivo 768px------------ 
+--------------------------------------*/
+
+@media (max-width: 768px) {
+
+    body {
+        max-width: 100%;
+        margin: 0;
+    }
+    
+    .menu {
+      width: 100%;
+      max-width: 100%;
+      display: flex;
+      justify-content: left;      
+    }
+
+    .lista, .redes-sociais {
+        display: none;
+    }
+
+    .logo {
+        padding-left: 40px;
+    }
+
+    .icone-menu {
+        display: flex;
+    }
+
+    .icone-menu img {
+        margin-left: 390px;
+        width: 40px;
+        height: 40px;
+    }
+
+    header {
+        display: flex;
+        background-image: url(../img/frances-allen1.jpg);
+        width: 757.5px;
+        height: 400px;
+        background-repeat: no-repeat;
+        max-width: 100%;
+        vertical-align: auto;
+        background-size: cover;
+        padding-right: 18px;
+    }
+    
+    header h1 {
+        color: #ffffff;
+        text-align: center;
+        font-size: 62px;
+        font-weight: bold;
+        text-transform: uppercase;
+        margin-bottom: 25px;
+    }
+
+    .titulo {
+        display: flex;
+        justify-content: center;
+        margin: 0;
+        flex-direction: column;
+        width: 599.833px;
+        padding-left: -45px;
+        margin-left: -76px;
+        padding-right: -16px;
+        margin-right: -88px;
+    }
+    
+    .titulo h3 {
+        text-align: center;
+        padding-left: 184px;
+        font-size: 18px;
+        font-family: "Roboto Slab", Arial, Helvetica, sans-serif;
+        font-weight: bold;
+    }
+    
+    .conteudo {
+        margin: 5% 21.3% ;
+        display: flex;
+    }
+    
+    .introducao {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+    
+    }
+    
+    .introducao img {
+        width: 150px;
+        height: 150px;
+        border-radius: 100%;
+    }
+    
+    .introducao p {
+        color: #63458A;
+        text-align: left;
+        margin-left: 55px;
+        font-size: 16.4px;
+    }
+    
+    .citacao {
+        border: 1px solid #63458A;
+        font-weight: bold;
+        font-size: 18px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    
+    .citacao p {
+        text-align: center;
+        margin: 20px;
+    }
+    
+    .historia h4 {
+        text-align: left;
+        font-size: 18px;
+        font-family: "Roboto Slab", Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        margin:0; 
+    }
+    
+    .historia p {
+        font-size: 16.4px;
+    }
+    
+    .historia img {
+        margin: 40px 25%;
+    }
+    
+    .cite {
+        text-align: right;
+        font-style: italic;
+        color: #606362;
+        font-size: 11px;
+        padding-left: 100px;
+    }
+    
+    .assinatura {
+        display: flex;
+        align-items: center;
+        background-color: #E4B7E5;
+        line-height: 15px;
+    }
+    
+    .assinatura img {
+        width: 150px;
+        height: 150px;
+        padding-left: 213px;
+    }
+    
+    .assinatura-foto {
+        width: 40%;
+    }
+    
+    .assinatura-texto {
+        font-weight: bold;
+        font-size: 18px;
+    }
+    
+    .assinatura-texto a {
+        text-decoration: none;
+        color: #63458A;
+    }
+    
+    .todas {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 70px;
+        padding-bottom: 33px;
+    }
+    .todas a{
+        text-decoration: none;
+        font-weight: bold;
+        text-transform: uppercase;
+        color: #ffffff;
+        background-color: #C083B9;
+        padding: 16px 29px;
+        font-size: 28px;
+        border-radius: 10px;
+    }
+
+    .menu-final {
+        width: 100%;
+        max-width: 100%;
+        display: flex;   
+        background-color: #323534;
+        justify-content: center;
+        align-items: center;
+        margin-top: 40px;
+        padding-right: 10px;
+        height: 150px;
+        right: 0;
+    }
+    
+    .menu-final li {
+        text-decoration: none;
+        list-style: none;
+        text-align: center;
+    }
+    
+    .menu-final a {
+        color: white;
+        text-decoration: none;
+        text-transform: uppercase;
+        text-align: center;
+        font-size: 10px;
+    }
+    
+    .logo-final {
+        width: 40%;
+        padding-left: 80px;
+    }
+    
+    .logo-final img {
+        width: 100px;
+        height: 30px;
+    }
+    
+    .lista-final {
+        width: 50%;
+        padding-left: 10px;
+    }
+       
+    .redes-sociais-final {
+        display: inline;
+        width: 40%;
+        padding-left: 15px;
+    }
+    
+    .redes-sociais-final img {
+        width: 15px;
+        height: 25px;
+    } 
+
+    .redes-sociais-final a {
+        font-size: 10px;
+    }
+
+    footer {
+        width: 100%;
+        max-width: 100%;
+        font-size: 12px;
+        background-color: #292A2A;
+        margin: 0;
+        text-align: center;
+        color: #ffffff;
+        height: 25px;
+        padding-top: 10px;
+        padding-right: 0;
+    }
+    
+    footer p{
+        margin: 0;
+    }
+  }
+  
+/* ----------------------------------- 
+----------Responsivo 420px------------ 
+--------------------------------------*/
+
+  @media (max-width: 420px) {
+    body {
+        margin: 0;
+        max-width: 100%;
+        left: 0;
+        margin: 0;
+    }
+
+    .menu {
+      width: 420px;
+      max-width: 100%;
+      display: flex;
+      justify-content: left; 
+      left: 0;
+      margin: 0;
+      position: 0;     
+    }
+
+    .lista, .redes-sociais {
+        display: none;
+    }
+
+    .logo {
+        padding-left: 20px;
+    }
+
+    .icone-menu {
+        display: flex;
+    }
+
+    .icone-menu img {
+        margin-left: 200px;
+        width: 40px;
+        height: 40px;
+    }
+
+    header {
+        display: flex;
+        background-image: url(../img/frances-allen1.jpg);
+        width: 420px;
+        height: 400px;
+        align-items: flex-end;
+        justify-content: center;
+        background-repeat: no-repeat;
+        max-width: 100%;
+        vertical-align: auto;
+        background-size: cover; 
+        padding-right: 0px; 
+        margin-left: 0;
+        background-position: center;        
+    }
+
+    header h1 {
+        color: #ffffff;
+        text-align: center;
+        font-size: 42px;
+        font-weight: bold;
+        text-transform: uppercase;
+        margin-bottom: 25px;
+    }
+
+    .titulo {
+        display: flex;
+        justify-content: center;
+        margin: 0;
+        flex-direction: column;
+        width: 420x;
+    }
+    
+    .titulo h3 {
+        text-align: center;
+        padding-left: 0;
+        font-size: 15px;
+        font-family: "Roboto Slab", Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        margin-top: 50px;
+    }
+    
+    .conteudo {
+        width: 420px;
+        display: flex;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .introducao {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;    
+    }
+    
+    .introducao img {
+        width: 130px;
+        height: 130px;
+        border-radius: 100%;
+        margin-top: 26px;
+        margin-left: 17px;
+    }
+    
+    .introducao p {
+        color: #63458A;
+        text-align: left;
+        margin-left: 17px;
+        font-size: 13.4px;
+        padding-right: 23px;
+    }
+    
+    .citacao {
+        width: 90%;
+        border: 1px solid #63458A;
+        font-weight: bold;
+        font-size: 18px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        margin-left: 20px;
+    }
+    
+    .citacao p {
+        text-align: center;
+        margin: 20px;
+    }
+
+    .historia {
+        margin: 0 20px;
+    }
+
+    .historia h4 {
+        text-align: left;
+        font-size: 15px;
+        font-family: "Roboto Slab", Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        margin:0; 
+    }
+    
+    .historia p {
+        font-size: 13.4px;
+    }
+    
+    .historia img {
+        margin: 40px 11%;
+    }
+    
+    .cite {
+        text-align: right;
+        font-style: italic;
+        color: #606362;
+        font-size: 7px;
+        padding-left: 67px;
+    }
+    
+    .assinatura {
+        display: flex;
+        align-items: center;
+        background-color: #E4B7E5;
+        line-height: 15px;
+        margin-top: 50px;
+    }
+    
+    .assinatura img {
+        width: 150px;
+        height: 150px;
+        padding-left: 50px;
+    }
+    
+    .assinatura-foto {
+        width: 40%;
+    }
+    
+    .assinatura-texto {
+        font-weight: bold;
+        font-size: 16px;
+        padding-left: 57px;
+    }
+    
+    .assinatura-texto a {
+        text-decoration: none;
+        color: #63458A;
+    }
+    
+    .todas {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 35px;
+        padding-bottom: 33px;
+    }
+
+    .todas a{
+        text-decoration: none;
+        font-weight: bold;
+        text-transform: uppercase;
+        color: #ffffff;
+        background-color: #C083B9;
+        padding: 16px 29px;
+        font-size: 22px;
+        border-radius: 10px;
+    }
+
+    .menu-final {
+        width: 100%;
+        max-width: 100%;
+        display: flex;   
+        background-color: #323534;
+        justify-content: center;
+        align-items: center;
+        margin-top: 5px;
+        padding-right: 0;
+        height: 150px;
+        right: 0;
+        flex-direction: column;
+        align-content: center;
+        margin: 0;
+    }
+    
+    .menu-final li {
+        text-decoration: none;
+        list-style: none;
+        text-align: center;
+    }
+    
+    .menu-final a {
+        color: white;
+        text-decoration: none;
+        text-transform: uppercase;
+        text-align: center;
+        font-size: 10px;
+    }
+    
+    .logo-final {
+        width: 40%;
+        padding-left: 40px;
+    }
+    
+    .logo-final img {
+        width: 100px;
+        height: 30px;
+    }
+    
+    .lista-final {
+        width: 50%;
+        padding-left: 0;
+    }
+       
+    .redes-sociais-final {
+        display: inline;
+        width: 40%;
+        padding-left: 0;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .redes-sociais-final img {
+        width: 15px;
+        height: 25px;
+    } 
+
+    .redes-sociais-final a {
+        font-size: 10px;
+        text-transform: none;
+    }
+
+    footer {
+        width: 100%;
+        max-width: 100%;
+        font-size: 8px;
+        background-color: #292A2A;
+        margin: 0;
+        text-align: center;
+        color: #ffffff;
+        height: 20px;
+        padding-top: 14px;
+    }
+    
+    footer p{
+        margin: 0;
+    }
+  }

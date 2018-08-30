@@ -90,9 +90,6 @@
         margin-bottom: 50px;
     }
 
-main {
-    
-}
 
     header {
         display: flex;
@@ -162,8 +159,6 @@ main {
     }
 
     .menu-final li {
-        /* display: inline-block; */
-        /* margin-left: 0; */
         text-decoration: none;
         list-style: none;
         text-align: center;
@@ -172,7 +167,6 @@ main {
     .menu-final a {
         color: white;
         text-decoration: none;
-        /* margin-left: 15px;  */
         text-transform: uppercase;
         text-align: left;
         font-size: 14px;
@@ -180,7 +174,6 @@ main {
 
     .logo-final {
         width: 30%;
-        /* padding-left: 172px; */
         vertical-align: middle;
     }
 
@@ -191,14 +184,8 @@ main {
 
     .lista-final {
         width: 30%;
-        /* padding-left: 175px;
-        padding-right: 20px; */
         padding-right: 20px;
         padding-left: 60px;
-    }
-
-    .lista-final a {
-        /* margin-right: 15px; */
     }
 
     .icone-menu {
@@ -240,14 +227,9 @@ main {
 
 }
 
-
-
-
-
-
-
-
-
+/* ----------------------------------- 
+----------Responsivo 768px------------ 
+--------------------------------------*/
 
 @media (max-width: 768px) {
     body {
@@ -283,6 +265,7 @@ main {
         flex-wrap: wrap;
         margin: 0 auto;
     }
+
     .mulheres img{
         width: 250px;
         height: 261px;
@@ -333,7 +316,6 @@ main {
         font-size: 24px;
         padding-right: 100px;
         padding-top: 190px;
-        
     }
     
     .conteudo p {
@@ -371,7 +353,7 @@ main {
         justify-content: center;
         align-items: center;
         margin-top: 5px;
-        padding-right: 10px;
+        padding-right: px;
         height: 150px;
         right: 0;
     }
@@ -429,8 +411,8 @@ main {
         text-align: center;
         color: #ffffff;
         height: 25px;
-        /* margin-left: -10px; */
         padding-top: 10px;
+        padding-right: 0;
     }
     
     footer p{
@@ -438,10 +420,15 @@ main {
     }
   }
 
+/* ----------------------------------- 
+----------Responsivo 420px------------ 
+--------------------------------------*/
+
   @media (max-width: 420px) {
     body {
         margin: 0;
     }
+
     .menu {
       width: 100%;
       max-width: 100%;
@@ -472,16 +459,17 @@ main {
         flex-wrap: wrap;
         margin: 0 auto;
     }
+
     .mulheres img{
         width: 150px;
         height: 161px;
-        margin-left: 40px;
+        margin-left: 43px;
         border-radius: 7px;
     }
 
     .mulheres p{
         text-align: center;
-        margin-left: 40px;
+        margin-left: 43px;
         padding-top: 5px;
         
     }
@@ -499,7 +487,7 @@ main {
     header {
         display: flex;
         background-image: url(../img/bg-banner-claro.png);
-        width: 500px;
+        width: 420px;
         height: 500px;
         align-items: end;
         background-repeat: no-repeat;
@@ -507,7 +495,6 @@ main {
         vertical-align: auto;
         padding-top: 10px;
         background-size: cover;
-        background-position: -100px 0;    
     }
     
     .conteudo {
@@ -553,7 +540,7 @@ main {
     }
     
     .menu-final {
-        width: 100%;
+        width: 420px;
         max-width: 100%;
         display: flex;   
         background-color: #323534;
@@ -619,8 +606,8 @@ main {
         text-align: center;
         color: #ffffff;
         height: 20px;
-        /* margin-left: -10px; */
         padding-top: 14px;
+        padding-right: 0;
     }
     
     footer p{
